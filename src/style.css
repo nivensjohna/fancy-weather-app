@@ -19,3 +19,8 @@ body {
 footer {
   display: block;
 }
+
+.App {
+  margin: 60px auto;
+  max-width: 800px;
+}
