@@ -58,3 +58,8 @@ li {
 li:first-letter {
   text-transform: capitalize;
 }
+
+footer {
+  text-align: center;
+  margin: 20px auto;
+}
