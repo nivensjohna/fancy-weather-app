@@ -22,7 +22,7 @@ h1 {
   margin-bottom: 20px;
 }
 
-.sunny-icon {
+.icon {
   color: rgb(239, 205, 14);
   font-size: 100px;
 }
@@ -64,6 +64,6 @@ footer {
   margin: 20px auto;
 }
 
-temperature {
-  font-size: 40px;
+.temperature {
+  font-size: 100px;
 }
