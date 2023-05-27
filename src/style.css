@@ -35,6 +35,15 @@ h1 {
   top: -34px;
 }
 
+.weather-temperature .active {
+  color: (33, 33, 33);
+  cursor: default;
+}
+
+.weather-temperature .active:hover {
+  text-decoration: none;
+}
+
 ul {
   margin: 0;
   padding: 0;
