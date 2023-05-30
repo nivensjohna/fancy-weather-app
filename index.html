@@ -16,82 +16,81 @@
   </head>
   <body>
     <div class="container">
-       <div class="weather-app">
+      <div class="weather-app">
         <form id="search-form" class="mb-3">
-        <div class="row">
-        <div class="col-9">
-        <input type="search" placeholder="Type a city.." class="form-control"
-        id="city-input"
-        autocomplete="off"
-        />
-        </div>
-        <div class="col-3">
-          <input type="submit" value="Search" class="btn btn-primary w-100" />
-        </div>
-        </div>
-        </form>
-          <div class="overview">
-          <h1 id="city"></h1>
-        <ul>
-        <li>
-        Last updated: <span id="date">Friday 05:00</span>
-        </li>
-        <li id="description">
-        </li>
-        </ul>
-        <div class="row">
-          <div class="col-6">
-          <div class="clearfix weather-temperature">
-          <img src="" alt="Clear" id="icon" class="float-left" />
-          <strong id="temperature"></strong>
-            <a href ="#" id="celsius-link" class="active">°C</a> | 
-            <a href="#" id="fahrenheit-link">°F</a></span>
-         </div>
+          <div class="row">
+            <div class="col-9">
+              <input
+                type="search"
+                placeholder="Type a city.."
+                class="form-control"
+                id="city-input"
+                autocomplete="off"
+              />
+            </div>
+            <div class="col-3">
+              <input
+                type="submit"
+                value="Search"
+                class="btn btn-primary w-100"
+              />
+            </div>
           </div>
-          <div class="col-6">
-            <ul>
-              <li>
-              Precipitation: 0%
-              </li>
-              <li>
-                Humidity: <span id="humidity"></span>%
-              </li>
-              <li>
-                Wind: <span id="wind"></span>km/h
-              </li>
-            </ul>
+        </form>
+        <div class="overview">
+          <h1 id="city"></h1>
+          <ul>
+            <li>Last updated: <span id="date">Friday 05:00</span></li>
+            <li id="description"></li>
+          </ul>
+          <div class="row">
+            <div class="col-6">
+              <div class="clearfix weather-temperature">
+                <img src="" alt="Clear" id="icon" class="float-left" />
+                <strong id="temperature"></strong>
+                <a href="#" id="celsius-link" class="active">°C</a> |
+                <a href="#" id="fahrenheit-link">°F</a>
+              </div>
+            </div>
+            <div class="col-6">
+              <ul>
+                <li>Precipitation: 0%</li>
+                <li>Humidity: <span id="humidity"></span>%</li>
+                <li>Wind: <span id="wind"></span>km/h</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="weather-forecast">
+          <div class="row>" div class="col-2">
+            <div class="weather-forecast-date">
+              Thur
+              <img
+                src="http://openweathermap.org/img/wn/50d@2x.png"
+                alt=""
+                width="42"
+              />
+              <div class="weather-forescast-temperatures">
+                <span class="weather-forecast-temperature-max"> 18° </span>
+                <span class="weather-forecast-temperature-min"> 12° </span>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-      </div>
-      </div>
-      </div>
-    <div class="weather-forecast">
-    <div class="row>"
-      div class="col-2>
-      <div class="weather-forecast-date">
-      Thur
-    <img src="http://openweathermap.org/img/wn/50d@2x.png" 
-    alt="" 
-    width="42"
-    />
-    <div class="weather-forescast-temperatures">
-      <span class="weather-forecast-temperature-max">
-    18° </span>
-     <span class="weather-forecast-temperature-min">
-      </span>
-       12°
-    </span>
     </div>
-    </div>
-    </div>
-    </div>
-      </div>
-      </div>
-      <footer>
-        <a href="https://github.com/nivensjohna/fancy-weather-app">Open-source code</a> by Johna` Nivens
-        and
-        <a href="https://app.netlify.com/sites/storied-boba-40eaf4/" target="_blank" rel="noopener noreferrer">hosted on Netlify</a>
-      </footer>
+    <footer>
+      <a href="https://github.com/nivensjohna/fancy-weather-app"
+        >Open-source code</a
+      >
+      by Johna` Nivens and
+      <a
+        href="https://app.netlify.com/sites/storied-boba-40eaf4/"
+        target="_blank"
+        rel="noopener noreferrer"
+        >hosted on Netlify</a
+      >
+    </footer>
     <script src="src/app.js"></script>
   </body>
 </html>
