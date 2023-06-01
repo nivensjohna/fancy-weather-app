@@ -45,6 +45,7 @@ days.forEach(function (day) {
 
 forecastHTML = forecastHTML + `</div>`;
 forecastElement.innerHTML = forecastHTML;
+}
 
 function getForecast(coordinates) {
   console.log(coordinates);
