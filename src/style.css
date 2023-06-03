@@ -16,6 +16,7 @@ h1 {
   padding: 20px;
   border: 3px solid #dadde1;
   border-radius: 10px;
+  margin-top: 40px;
 }
 
 .overview {
@@ -86,4 +87,12 @@ footer {
 
 .weather-forecast-temperatures {
   font-size: 13px;
+}
+
+background {
+  background: linear-gradient(
+    -20deg,
+    rgb(233, 222, 250) 0%,
+    rgb(251, 252, 219) 100%
+  );
 }
