@@ -104,3 +104,7 @@ footer {
     rgb(251, 252, 219) 100%
   );
 }
+
+.date {
+  margin: auto;
+}
