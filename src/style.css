@@ -1,6 +1,7 @@
 body {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-weight: bold;
+  background: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
 }
 
 h1 {
@@ -94,14 +95,5 @@ footer {
     -20deg,
     rgb(233, 222, 250) 0%,
     rgb(251, 252, 219) 100%
-  );
-}
-
-body {
-  background-color: linear-gradient(
-    89.9deg,
-    rgb(208, 246, 255) 0.1%,
-    rgb(255, 237, 237) 47.9%,
-    rgb(255, 255, 231) 100.2%
   );
 }
