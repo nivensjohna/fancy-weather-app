@@ -106,5 +106,10 @@ footer {
 }
 
 .date {
-  margin: auto;
+  margin: 20px;
+  left: -20px;
+}
+
+.description {
+  left: -20px;
 }
