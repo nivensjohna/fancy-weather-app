@@ -97,7 +97,7 @@ footer {
   );
 }
 
-background {
+body {
   background-color: linear-gradient(
     89.9deg,
     rgb(208, 246, 255) 0.1%,
